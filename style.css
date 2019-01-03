@@ -1,0 +1,197 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+
+}
+
+.scroll {
+  overflow-y: scroll; 
+  height: 500px;
+}
+
+.container {
+  margin: 0px 283px 0px 283px;
+  width: 414px;
+
+}
+
+.status-bar {
+  margin: 0 auto;
+  position: fixed;
+  width: 414px;
+  height: 30px;
+  background-color: #000000;
+}
+
+nav {
+  margin: 0px 283px 0px 283px;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 414px;
+  height: 49px;
+  left: 0px;
+  top: 23px;
+  background-color: #FFFFFB;
+}
+
+.arrow {
+margin: 4% 0 2% 0;
+}
+
+.arrow-left {
+margin: 8px 7px 0 0;
+}
+
+h1 {
+  padding:
+width: 414px;
+height: 43px;
+left: 7px;
+top: 72px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 36px;
+
+color: #35393C;
+}
+
+
+h2 {
+  font-size: 200%;
+  font-weight: bold;
+  color: #35393C;
+}
+
+h3 {
+  font-size: 160%;
+  font-weight: 400;
+  color: #35393C;
+
+}
+
+.bus-stop {
+  margin: 0px 283px 0px 283px;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 414px;
+  height: 55px;
+  left: 0px;
+  top: 72px;
+  background-color: #FFFFFB;
+
+}
+
+.recommended {
+  margin: 0px 283px 0px 283px;
+  position: fixed;
+  width: 414px;
+  height: 55px;
+  left: 0px;
+  background-color: #EAEAEA;
+}
+
+.recommendedh2 {
+  position: fixed;
+  color: #35393C;
+  padding: 15px 0 15px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
+.bus-list {
+  background-color: #FFFFFB;
+  padding: 0 0 0 0;
+  margin: 55px 0 0 -15px;
+  width: 414px;
+  border-top: 0px;
+
+
+}
+
+.location {
+line-height: 1.3;
+width: 100%;
+padding: 15px 0 0 0;
+padding-left: 5%;
+display: inline-block;
+border-bottom: 1px solid #A8A8A8;
+}
+
+.location-2 {
+line-height: 1.3;
+width: 100%;
+padding: 15px 0 0 0;
+padding-left: 5%;
+display: inline-block;
+}
+
+.buslinebox {
+  position: relative;
+  width: 91px;
+  height: 37px;
+  left: 3px;
+  right: 5px;
+  bottom: 27.5px;
+
+  background: #EAEAEA;
+  border-radius: 10px;
+}
+
+.buslinenumber {
+
+width: 42px;
+height: 35px;
+top: 315px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 32px;
+
+color: #35393C;
+}
+
+.alternate {
+  margin: 0px 283px 0px 283px;
+  position: fixed;
+  width: 414px;
+  height: 55px;
+  left: 0px;
+  background-color: #EAEAEA;
+}
+
+.alternateh2 {
+  position: fixed;
+  color: #35393C;
+  padding: 15px 0 15px 0px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.content {
+  float: left;
+  width: 90%;
+  margin-top: 4%;
+  margin-bottom: 0%;
+  text-align: center;
+}
+
+
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
