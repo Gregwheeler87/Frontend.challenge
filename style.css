@@ -12,12 +12,14 @@ body {
 
 .scroll {
   overflow-y: scroll; 
-  height: 500px;
+  height: 300px;
 }
 
 .container {
   margin: 0px 283px 0px 283px;
   width: 414px;
+  height: 500px;
+  overflow-y: scroll;
 
 }
 
@@ -41,7 +43,7 @@ nav {
 }
 
 .arrow {
-margin: 4% 0 2% 0;
+float: left;
 }
 
 .arrow-left {
@@ -108,20 +110,27 @@ h3 {
 }
 
 
-.bus-list {
+.bus-list-rec {
   background-color: #FFFFFB;
-  padding: 0 0 0 0;
   margin: 55px 0 0 -15px;
   width: 414px;
   border-top: 0px;
 
+}
+
+.bus-list-alt {
+  background-color: #FFFFFB;
+  margin: 55px 0 0 -15px;
+  width: 414px;
+  border-top: 0px;
+  overflow-y: scroll; 
+  height: 500px;
 
 }
 
 .location {
 line-height: 1.3;
 width: 100%;
-padding: 15px 0 0 0;
 padding-left: 5%;
 display: inline-block;
 border-bottom: 1px solid #A8A8A8;
@@ -130,28 +139,31 @@ border-bottom: 1px solid #A8A8A8;
 .location-2 {
 line-height: 1.3;
 width: 100%;
-padding: 15px 0 0 0;
 padding-left: 5%;
 display: inline-block;
 }
 
 .buslinebox {
   position: relative;
+  /*
   width: 91px;
   height: 37px;
-  left: 3px;
-  right: 5px;
-  bottom: 27.5px;
-
+  */
+  display: inline-block;
+  float:left;
   background: #EAEAEA;
   border-radius: 10px;
 }
 
 .buslinenumber {
-
+/*
 width: 42px;
 height: 35px;
+*/
 top: 315px;
+text-align: center;
+padding-left: 3%;
+display: inline-block;
 
 font-family: Roboto;
 font-style: normal;
@@ -161,6 +173,44 @@ font-size: 32px;
 
 color: #35393C;
 }
+
+.arrivalbox {
+  position: relative;
+   /*
+  width: 58px;
+  height: 18px;
+  top: -55px;
+  float: left;
+  */
+  float: left;
+  display: inline-block;
+  left: 275px;
+  top: -20px;
+
+
+
+  background: #EAEAEA;
+  border-radius: 10px;
+}
+
+.arrivaltime {
+  width: 44px;
+  height: 17px;
+  left: 321px;
+  top: 200px;
+  text-align: center;
+  padding-left: 6%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+
+  color: #35393C;
+}
+
+
 
 .alternate {
   margin: 0px 283px 0px 283px;
@@ -182,16 +232,7 @@ color: #35393C;
 .content {
   float: left;
   width: 90%;
-  margin-top: 4%;
-  margin-bottom: 0%;
+  margin-top: 10%;
+  margin-bottom: -5%;
   text-align: center;
-}
-
-
-.clearfix:after {
-   content: ".";
-   visibility: hidden;
-   display: block;
-   height: 0;
-   clear: both;
 }
