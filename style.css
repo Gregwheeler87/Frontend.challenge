@@ -146,12 +146,15 @@ display: inline-block;
 }
 
 .buslinebox {
-  position: fixed;
   /*
+  position: fixed;
+
   width: 91px;
   height: 37px;
   */
   float: left;
+  width: 12%;
+  margin-top: 2.5%;
   background: #EAEAEA;
   border-radius: 10px;
 }
@@ -169,20 +172,24 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-font-size: 32px;
+font-size: 24px;
 
 color: #35393C;
 }
 
 .arrivalbox {
+  /*
   position: fixed;
-   /*
+
   height: 18px;
   top: -55px;
   float: left;
   */
   float: left;
-  width: 5%;
+  width: 13%;
+  margin-top: 4.3%;
+  margin-right: 7%;
+
   /*
   left: 275px;
   top: -20px;
@@ -235,11 +242,6 @@ color: #35393C;
 
 .content {
   float: left;
-  display: inline-block;
-  width: 90%;
-  /*
-  padding-top: 10%;
-  padding-bottom: -5%;
-  */
+  width: 60%;
   text-align: center;
 }
