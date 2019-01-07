@@ -4,11 +4,20 @@
 
 body {
   background-color: #333;
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 10px;
   line-height: 1.5;
 
 }
+
+meta {
+  display: inline-block;
+}
+
+.css-selector {
+  font-family: 'Roboto', serif;
+}
+
 
 .scroll {
   overflow-y: scroll; 
@@ -20,7 +29,6 @@ body {
   margin: 0px 283px 0px 283px;
   width: 414px;
   height: 1500px;
-  overflow-y: scroll;
 
 }
 
@@ -31,6 +39,7 @@ body {
   height: 30px;
   background-color: #000000;
 }
+
 
 nav {
   margin: 0px 283px 0px 283px;
@@ -49,21 +58,20 @@ padding-top: 4%;
 }
 
 .arrow-left {
-margin: 8px 7px 0 0;
+float: left;
+padding-top: 2%;
+width: 20%;
 }
 
 h1 {
-  padding:
-width: 414px;
-height: 43px;
-left: 7px;
-top: 72px;
-
-font-family: Roboto;
+float: left;
+text-align: center;
+padding-top: 1%;
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-font-size: 36px;
+font-size: 24px;
 
 color: #35393C;
 }
@@ -91,6 +99,7 @@ h3 {
   left: 0px;
   top: 72px;
   background-color: #FFFFFB;
+
 
 }
 
@@ -125,8 +134,6 @@ h3 {
   margin: 55px 0 0 -15px;
   width: 414px;
   border-top: 0px;
-  overflow-y: scroll; 
-  height: 500px;
 
 }
 
@@ -168,7 +175,7 @@ height: 35px;
 text-align: center;
 padding-left: 3%;
 
-font-family: Roboto;
+font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -209,10 +216,7 @@ color: #35393C;
   padding-left: 6%;
   */
   text-align: center;
-  float:left;
-  width: 44px;
-
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   line-height: normal;
