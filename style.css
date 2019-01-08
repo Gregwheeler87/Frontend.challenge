@@ -37,9 +37,12 @@ meta {
   position: fixed;
   width: 414px;
   height: 30px;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
+img {
+  width: 100%;
+}
 
 nav {
   margin: 0px 283px 0px 283px;
