@@ -7,8 +7,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 10px;
   line-height: 1.5;
- margin: 0px 283px 0px 283px;
-    width: 414px;
+}
+
+.container {
+  margin: 0px 283px 0px 283px;
+     width: 414px;
 }
 
 meta {
@@ -22,7 +25,7 @@ meta {
 
 .status-bar {
   margin: 0 auto;
-  width: 414px;
+  width: 100%;
   height: 30px;
   background-color: #ffffff;
 }
@@ -33,11 +36,17 @@ img {
 
 nav {
   padding: 10px 0 15px 15px;
-  width: 414px;
+  width: 100%;
   height: 49px;
   left: 0px;
   top: 23px;
   background-color: #FFFFFB;
+}
+
+.hamburger {
+  float: left;
+  width: 22px;
+  padding-top: 1%;
 }
 
 .arrow {
@@ -48,13 +57,14 @@ padding-top: 4%;
 .arrow-left {
 float: left;
 padding-top: 2%;
-width: 20%;
+width: 8%;
 }
 
 h1 {
 float: left;
 text-align: center;
 padding-top: 1%;
+width: 82%;
 font-family: "Roboto";
 font-style: normal;
 font-weight: 500;
@@ -82,7 +92,7 @@ h3 {
   margin: 0px 283px 0px 283px;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 414px;
+  width: 100%;
   height: 55px;
   left: 0px;
   top: 72px;
@@ -92,7 +102,7 @@ h3 {
 }
 
 .recommended {
-  width: 414px;
+  width: 100%;
   height: 55px;
   left: 0%;
   background-color: #EAEAEA;
@@ -109,14 +119,14 @@ h3 {
 
 .bus-list-rec {
   background-color: #FFFFFB;
-  width: 414px;
+  width: 100%;
   border-top: 0px;
 
 }
 
 .bus-list-alt {
   background-color: #FFFFFB;
-  width: 414px;
+  width: 100%;
   border-top: 0px;
 
 }
@@ -142,7 +152,7 @@ display: inline-block;
 
 .buslinebox {
   float: left;
-  width: 12%;
+  width: 20%;
   margin-top: 2.5%;
   background: #EAEAEA;
   border-radius: 10px;
@@ -164,8 +174,8 @@ color: #35393C;
 
 .arrivalbox {
   float: left;
-  width: 13%;
-  margin-top: 4.3%;
+  width: 16%;
+  margin-top: 3.3%;
   margin-right: 7%;
   background: #EAEAEA;
   border-radius: 10px;
@@ -185,7 +195,7 @@ color: #35393C;
 
 
 .alternate {
-  width: 414px;
+  width: 100%;
   height: 55px;
   left: 0px;
   background-color: #EAEAEA;
@@ -201,6 +211,6 @@ color: #35393C;
 
 .content {
   float: left;
-  width: 60%;
+  width: 50%;
   text-align: center;
 }
