@@ -1,2 +1,2 @@
 # Frontend.challenge
-The bus routes view for the app BusyBus.
+An assignment in the Bloc Design Program to code the bus routes view for the app BusyBus.
